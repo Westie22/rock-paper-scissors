@@ -23,7 +23,21 @@ function selectChoice() {
     me = this.id;
     document.getElementById("my-choice").src = me + ".png";
 
-    // randome choices for computer
+    // random choices for computer
     computer = choices[Math.floor(Math.random() * 3)]; 
     document.getElementById("computer-choice").src = computer + ".png";
+
+    // chcecking for winner
+    if (me == computer) {
+        myScore += 1;
+        computerScore += 1;
+    } else {
+        if (me == "rock") {
+            if (computer == "scissors") {
+                myScore += 1;
+            } else if (computer == "paper") {
+                computerScore += 1;
+            }
+        }
+    }
 }
