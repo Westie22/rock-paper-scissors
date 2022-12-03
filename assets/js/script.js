@@ -31,13 +31,32 @@ function selectChoice() {
     if (me == computer) {
         myScore += 1;
         computerScore += 1;
-    } else {
+    }
+    else {
         if (me == "rock") {
             if (computer == "scissors") {
                 myScore += 1;
-            } else if (computer == "paper") {
+            }
+            else if (computer == "paper") {
+                computerScore += 1;
+            }
+        }
+        else if (me == "paper") {
+            if (computer == "rock") {
+                myScore += 1;
+            }
+            else if (computer == "scissors") {
+                computerScore += 1;
+            }
+        }
+        else if (me == "scissors") {
+            if (computer == "paper") {
+                myScore += 1;
+            }
+            else if (computer == "rock") {
                 computerScore += 1;
             }
         }
     }
+    
 }
