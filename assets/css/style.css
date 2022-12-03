@@ -3,23 +3,23 @@ body {
     text-align: center;
 }
 #computer-choice {
-    width: 240px;
-    height: 240px;
+    width: 600px;
+    height: 500px;
     background-color: green;
     margin-top: 10px;
 }
 
 #my-choice {
-    width: 240px;
-    height: 240px;
+    width: 600px;
+    height: 500px;
     background-color: orange;
     margin-top: 10px;   
 }
 
 /* 3 choices images*/
 #choices {
-    width: 240px;
-    height: 80px; 
+    width: 600px;
+    height: 100px; 
     background-color: blue;
     margin: 0 auto;
     margin-top: 10px;
