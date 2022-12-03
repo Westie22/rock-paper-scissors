@@ -24,6 +24,8 @@ function selectChoice() {
     document.getElementById("my-choice").src = me + ".png";
 
     // random choices for computer
+    // from array ["rock", "paper", "scissors"], 
+    // Math.random gives random number between 0 - 0.9999(not including [1]) * 3 = 0 - 2.9999(with Math.floor gets rid of decimal)
     computer = choices[Math.floor(Math.random() * 3)]; 
     document.getElementById("computer-choice").src = computer + ".png";
 
@@ -58,5 +60,13 @@ function selectChoice() {
             }
         }
     }
-    
+    // update scroes
+    document.getElementById("my-score").innerText = myScore;
+    document.getElementById('computer-score').innerText = computerScore;
 }
+let = reset;
+
+function reset() {
+    document.getElementById("my-score").innerText = 0;
+    document.getElementById("computer-score").innerText= 0;
+ }
