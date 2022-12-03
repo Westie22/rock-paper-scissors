@@ -16,7 +16,16 @@ body {
     margin-top: 10px;   
 }
 
+/* 3 choices images*/
 #choices {
     width: 240px;
     height: 80px; 
+    background-color: blue;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#choices img {
+    width: 80px;
+    height: 80px;
 }
