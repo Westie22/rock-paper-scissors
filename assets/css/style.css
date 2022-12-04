@@ -30,6 +30,7 @@ body {
     height: 80px;
 }
 
+/* buttons */
 button {
     width: 200px;
     height: 50px;
@@ -47,5 +48,13 @@ button:focus {
 
 button:active,
 button:hover {
-    background-color: darkkhaki;
+    background-color: gray;
+}
+
+/* Media queries */
+
+@media (max-width: 414px) {
+    body {
+        width: 100%;
+    }
 }
