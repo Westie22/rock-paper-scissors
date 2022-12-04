@@ -77,6 +77,7 @@ function selectChoice() {
     document.getElementById("computer-score").innerText = computerScore;
     document.getElementById("tie-score").innerText = tieScore;
 }
+
 let = reset;
 
 function reset() {

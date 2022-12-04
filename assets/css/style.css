@@ -29,3 +29,23 @@ body {
     width: 100px;
     height: 80px;
 }
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color: silver;
+    margin-top: 10px;
+    border: 1px transparent;
+    border-radius: 10px; 
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    color: whitesmoke;
+}
+button:focus {
+    outline: none;
+}
+
+button:active,
+button:hover {
+    background-color: darkkhaki;
+}
