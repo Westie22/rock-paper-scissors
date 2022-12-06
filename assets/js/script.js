@@ -36,6 +36,7 @@ function selectChoice() {
     if (me == computer) {
         //alert("The result is tie!")
         tieScore += 1;
+        //tieScore can be added +1!
         //myScore += 1;
         //computerScore += 1;
     }
@@ -77,7 +78,7 @@ function selectChoice() {
     document.getElementById("computer-score").innerText = computerScore;
     document.getElementById("tie-score").innerText = tieScore;
 }
-
+// reset the score to zero so the game can be started from 0 score
 function reset() {
     document.getElementById("my-score").innerText = 0;
     document.getElementById("computer-score").innerText= 0;
