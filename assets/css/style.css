@@ -57,4 +57,28 @@ button:hover {
     body {
         width: 100%;
     }
+    #computer-choice {
+        width: 150px;
+        height: 150px;
+        margin-top: 10px;  
+    }
+    #my-choice {
+        width: 150px;
+        height: 150px;
+        margin-top: 10px;
+    }
+    #choices img {
+        width: 50px;
+        height: 60px;
+    }
+
+    button {
+        width: 100px;
+        height: 30px;
+        margin-top: 10px;
+        border: 1px transparent;
+        border-radius: 5px; 
+        text-transform: uppercase;
+        letter-spacing: 1.1px;
+     }
 }
