@@ -78,8 +78,6 @@ function selectChoice() {
     document.getElementById("tie-score").innerText = tieScore;
 }
 
-let = reset;
-
 function reset() {
     document.getElementById("my-score").innerText = 0;
     document.getElementById("computer-score").innerText= 0;
