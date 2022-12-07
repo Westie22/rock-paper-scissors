@@ -3,37 +3,36 @@ body {
     text-align: center;
 }
 #computer-choice {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     background-color: green;
     margin-top: 10px;
 }
 
 #my-choice {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     background-color: orange;
     margin-top: 10px;   
 }
 
 /* 3 choices images*/
 #choices {
-    width: 200px;
-    height: 0.5px; 
+    width: 300px;
+    height: 80px; 
     /*background-color: blue; */
     margin: 0 auto;
     margin-top: 10px;
 }
 
 #choices img {
-    width: 66px;
-    height: 60px;
-    margin-bottom: 30px;
+    width: 100px;
+    height: 80px;
 }
 
 /* buttons */
 button {
-    width: 150px;
+    width: 200px;
     height: 50px;
     background-color: silver;
     margin-top: 10px;
@@ -54,29 +53,32 @@ button:hover {
 
 /* Media queries */
 
-/*@media (max-width: 414px) {
+@media screen and (max-width: 680px) {
     body {
         width: 100%;
     }
+
+    div h1, h2 {
+        font-size:large;
+    }
     #computer-choice {
-        width: 150px;
-        height: 150px;
-        margin-top: 10px;  
+        width: 200px;
+        height: 200px;
+       
     }
     #my-choice {
-        width: 150px;
-        height: 150px;
-        margin-top: 10px;
+        width: 200px;
+        height: 200px;
+        
     }
     #choices img {
-        width: 50px;
+        width: 67px;
         height: 60px;
     }
 
     button {
         width: 100px;
         height: 30px;
-        margin-top: 10px;
         border: 1px transparent;
         border-radius: 5px; 
         text-transform: uppercase;
@@ -84,12 +86,36 @@ button:hover {
      }
 }
 
-@media (max-width: 320px) {
+
+@media screen and (max-width: 414px) {
+    div h1, h2 {
+        font-size: medium;
+    }
     body {
-        width: 75%;
+        font-size: medium;
+        width: 100%;
     }
 
-    h1, h2 {
-        font-size: 75%;
+    #computer-choice {
+        width: 150px;
+        height: 150px;
+        margin-top: 1px;  
     }
+    #my-choice {
+        width: 150px;
+        height: 150px;
+        margin-top: 1px;
+    }
+    #choices img {
+        width: 50px;
+        height: 60px;
+    }
+    button {
+        width: 100px;
+        height: 30px;
+        margin-top: 1px;
+        border: 1px transparent;
+        border-radius: 5px; 
+        text-transform: uppercase;
+     }
 }
