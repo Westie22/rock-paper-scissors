@@ -14,7 +14,6 @@ This game has only two outcomes: a win for player which means a loss for the com
 ## How to play
 Me, the player choose one images from 'rock', 'paper', or 'scissors', meanwhile opponent, the computer will have a random decision, and it shows immediately who won with scores added.
 
-* Initial site veiw
 1.  Initial site contains Computer Score, My Score, Tie Score and Reset. When these two colurs - Green & Oranges means, the game has not been played yet.
 
 ![alt text](media/initial_site_view.png)
