@@ -26,16 +26,16 @@ Me, the player choose one images from 'rock', 'paper', or 'scissors', meanwhile 
 
 ![alt text](media/choice_of_paper.png)
 
-3. "I" decide a 'scissors', and the computer chooses a 'paper', which "I" won again and My Score is now 2.
+4. "I" decide a 'scissors', and the computer chooses a 'paper', which "I" won again and My Score is now 2.
 
 ![alt text](media/choice_of_scissors.png)
 
-4. When the match is tie! : "I" decide another 'rock' and the computer also chooses a 'rock'. As the match is draw, score 1 is now added to Tie Score.
+5. When the match is tie! : "I" decide another 'rock' and the computer also chooses a 'rock'. As the match is draw, score 1 is now added to Tie Score.
 
 ![alt text](media/tie_match.png)
 
-5. Game reset from score 0 for all players : very buttom, there is a 'Replay' button. Once it's clicked, all the scores reset to 0 for both players and the site shows the initial view. 
+6. Game reset from score 0 for all players : very buttom, there is a 'Replay' button. Once it's clicked, all the scores reset to 0 for both players and the site shows the initial view. 
 
 ![alt text](media/initial_site_view.png)
 
-6. Reply the game!
+7. Reply the game!
