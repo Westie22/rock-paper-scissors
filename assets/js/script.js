@@ -19,7 +19,7 @@ window.onload = function() {
         document.getElementById("choices").append(choice);
     }
 
-}
+};
 // My choice of rock, papter, scissors
 function selectChoice() {
     me = this.id;
