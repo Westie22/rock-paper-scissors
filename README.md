@@ -3,7 +3,7 @@
 Welcome to [Rock, Paper, Scissors Game](https://westie22.github.io/rock-paper-scissors/) website!
 This is a website of playing "Rock, Paper, or Scissors" against Computer. As you play the game vs Computer, you or the computer get scores and the game allows you to reset the game that start from score 0.
 
-![alt text](media/responsive_devices.png)
+![alt text](media/responsive_devices.v2.png)
 
 ## Requirements
 * HTML
