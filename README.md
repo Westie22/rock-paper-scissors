@@ -18,7 +18,7 @@ Me, the player choose one images from 'rock', 'paper', or 'scissors', meanwhile 
 
 1.  Initial site contains Computer Score, My Score, Tie Score and Reset. Default images for both players are set on 'rock'.
 
-![alt text](media/initial_site_view.png)
+![alt text](media/initial_site_view.v2.png)
 
 2. "I" decide a 'rock' first, and the computer chooses a 'paper'. That means the computer won and its score is added up 1.
 
