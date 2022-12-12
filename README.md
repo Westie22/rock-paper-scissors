@@ -41,3 +41,10 @@ Me, the player choose one images from 'rock', 'paper', or 'scissors', meanwhile 
 ![alt text](media/initial_site_view.v2.png)
 
 7. Reply the game!
+
+## Validator Testing
+ - HTML
+   - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwestie22.github.io%2FUnforgettable-Edinburgh%2Findex.html) for Home page.
+   - For Feedback page [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwestie22.github.io%2Frock-paper-scissors%2Findex.html).
+ - CSS
+   - No errors were found when passing throught the official [(Jigsaw) Validator]().
