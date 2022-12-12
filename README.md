@@ -38,6 +38,6 @@ Me, the player choose one images from 'rock', 'paper', or 'scissors', meanwhile 
 
 6. Game reset from score 0 for all players : very buttom, there is a 'Replay' button. Once it's clicked, all the scores reset to 0 for both players and the site shows the initial view. 
 
-![alt text](media/initial_site_view.png)
+![alt text](media/initial_site_view.v2.png)
 
 7. Reply the game!
