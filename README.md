@@ -71,6 +71,10 @@ The live link can be found here - https://westie22.github.io/rock-paper-scissors
 - I tried to add after 5 rounds, the site to return to initial view with scores all '0' automatically.
 
 ### Acknowledgement
-- This site is inspried by Code Institute project "Love Maths".
+- This site-css is inspried and taken by Code Institute project "Love Maths".
 - This site is also inspired by this [YouTube](https://www.youtube.com/watch?v=EfAl9bwzVZk&t=5063s) channel.
+- This site is learned by are learned from [W3schools](https://www.w3schools.com/) site.
+
+### Media
+- The rock, paper, scissors images are from this open source site [Seekpng](https://www.seekpng.com/).
 
