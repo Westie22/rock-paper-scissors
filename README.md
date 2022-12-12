@@ -46,4 +46,31 @@ Me, the player choose one images from 'rock', 'paper', or 'scissors', meanwhile 
  - HTML
    - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwestie22.github.io%2Frock-paper-scissors%2Findex.html) for Home page.
  - CSS
-   - No errors were found when passing throught the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwestie22.github.io%2Frock-paper-scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+   - No errors were found when passing through the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwestie22.github.io%2Frock-paper-scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+ - JavaScript
+   - Codes are syntactically valid through the official [ExtendsClass Validator](https://extendsclass.com/javascript-fiddle.html).
+   - Manage to check with raw codes, a screenshot is the only way to approve.
+  
+![alt text](media/js_code_validation.png)
+
+- Accessibility
+I confirmed that the colors and fonts chosen are easy to ready and accessible by running it via Lighthouse in devtools.
+![alt text](media/lighthouse.png)
+
+## Deployment
+- This site was deployed to GitHub pages. The steps to deploy are as below:
+  - In the GitHub repository, naviagte to the Setting tab
+  - From the soure section, left-side, select Page
+  - From the Page, the source section drop-down menu, select the Master Branch
+  - Underneath the Master Branch, selct 'main' and '/root' from the Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://westie22.github.io/rock-paper-scissors/
+
+### Features Left to Fix/Implement
+- I tried adding message when the game matched either "Computer Win!" or "I Win!" or "It's tie!", however it worked with alert but messge comes first then image comes later, so it wasn't looking correct. 
+- I tried to add after 5 rounds, the site to return to initial view with scores all '0' automatically.
+
+### Acknowledgement
+- This site is inspried by Code Institute project "Love Maths".
+- This site is also inspired by this [YouTube](https://www.youtube.com/watch?v=EfAl9bwzVZk&t=5063s) channel.
+
