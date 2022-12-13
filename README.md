@@ -71,8 +71,7 @@ I confirmed that the colors and fonts chosen are easy to ready and accessible by
 The live link can be found here - https://westie22.github.io/rock-paper-scissors/
 
 ### Features Left to Fix/Implement
-- I tried adding message when the game matched either "Computer Win!" or "I Win!" or "It's tie!", however it worked with alert but messge comes first then image comes later, so it wasn't looking correct. 
-- I tried to add after 5 rounds, the site to return to initial view with scores all '0' automatically.
+- After 5 rounds and the site tells who the winner is, however both scores are set 0 but not automatically able to replay.(currently REPLAY button must be click to continue the game
 
 ### Acknowledgement
 - This site-css is inspried and taken by Code Institute project "Love Maths".
