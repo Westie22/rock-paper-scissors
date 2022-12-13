@@ -2,7 +2,6 @@ let me;
 let myScore = 0;
 let computer;
 let computerScore = 0;
-let tie;
 let tieScore = 0;
 
 let choices = ["rock", "paper", "scissors"];
@@ -20,6 +19,7 @@ window.onload = function() {
     }
 
 };
+
 // My choice of rock, papter, scissors
 function selectChoice() {
     me = this.id;
@@ -34,53 +34,71 @@ function selectChoice() {
     // chcecking for winner
     // when the result is tie : no scores for both
     if (me == computer) {
-        //alert("The result is tie!")
+        //alert("The result is tie!");
         tieScore += 1;
-        //tieScore can be added +1!
         //myScore += 1;
         //computerScore += 1;
     }
     else {
         if (me == "rock") {
             if (computer == "scissors") {
-                myScore += 1;
-                //alert("I Win!");  
+                
+                //alert("I Win!"); 
+                myScore += 1; 
+
             }
-            else if (computer == "paper") {
+            else if (computer == "paper") {  
+                //alert("Computer Wins!");
                 computerScore += 1;
-                //alert("Computer Wins!")
             }
         }
         else if (me == "paper") {
             if (computer == "rock") {
+                //alert("I Win!");
                 myScore += 1;
-                //alert("I Win!")
             }
             else if (computer == "scissors") {
+                //alert("Computer Wins!");
                 computerScore += 1;
-                //alert("Computer Wins!")
             }
         }
         else if (me == "scissors") {
             if (computer == "paper") {
+                //alert("I Win!");
                 myScore += 1;
-                //alert("I Win!")
             }
             else if (computer == "rock") {
-                //alert("Computer Wins!")
+                //alert("Computer Wins!");
                 computerScore += 1;
             }
-        }
-    }
+        // 5 times winning and scores are back to 0 and can't play any more, must click "REPLAY" button to continue
+        } if (myScore >= 5) {
+            alert("I won the game! Click REPLAY!!")
+        } else if (computerScore >= 5) {
+            alert("The computer won! Click REPLAY!!")
+        } 
    
     // update scroes
     document.getElementById("my-score").innerText = myScore;
     document.getElementById("computer-score").innerText = computerScore;
     document.getElementById("tie-score").innerText = tieScore;
 }
-// reset the score to zero so the game can be started from 0 score
+// Afterh 5 winnings, both scores are back to 0, click 'REPLAY" for refresh the match from beginning.
+function game() {
+    for (i = 1; myScore < 5 && computerScore < 5; i++) {
+        round();
+    }
+document.getElementById("my-score").innerText = 0;
+document.getElementById("computer-score").innerText= 0;
+document.getElementById("tie-score").innerText = 0;
+}
+
+game();
+
+// Reset the game
 function reset() {
     document.getElementById("my-score").innerText = 0;
     document.getElementById("computer-score").innerText= 0;
     document.getElementById("tie-score").innerText = 0;
+}
 }
