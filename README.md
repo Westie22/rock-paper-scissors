@@ -40,6 +40,10 @@ Me, the player choose one images from 'rock', 'paper', or 'scissors', meanwhile 
 
 ![alt text](media/initial_site_view.v2.png)
 
+7. After 5 scores obtains the site tells you who is the winner and both scores are changed to 0. In order to continue the game, REPLAY button must be clicked.
+
+![alt text](media/winner_message.png)
+
 7. Reply the game!
 
 ## Validator Testing
@@ -74,6 +78,7 @@ The live link can be found here - https://westie22.github.io/rock-paper-scissors
 - This site-css is inspried and taken by Code Institute project "Love Maths".
 - This site is also inspired by this [YouTube](https://www.youtube.com/watch?v=EfAl9bwzVZk&t=5063s) channel.
 - This site is learned by are learned from [W3schools](https://www.w3schools.com/) site.
+- This project is also learned by [Stackoverflow.com](https://stackoverflow.com/).
 
 ### Media
 - The rock, paper, scissors images are from this open source site [Seekpng](https://www.seekpng.com/).
