@@ -73,9 +73,9 @@ function selectChoice() {
             }
         // 5 times winning and scores are back to 0 and can't play any more, must click "REPLAY" button to continue
         } if (myScore >= 5) {
-            alert("I won the game! Click REPLAY!!")
+            alert("I won the game! Click REPLAY!!");
         } else if (computerScore >= 5) {
-            alert("The computer won! Click REPLAY!!")
+            alert("The computer won! Click REPLAY!!");
         } 
    
     // update scroes
