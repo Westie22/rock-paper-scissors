@@ -73,11 +73,11 @@ function selectChoice() {
             }
         // 5 times winning and scores are back to 0 and a new game starts!
         } if (myScore >= 5) {
-            alert("I won the game! Click REPLAY!!");
+            alert("I won the game! Start a new match!!");
             window.location.reload();
             
         } else if (computerScore >= 5) {
-            alert("The computer won! Click REPLAY!!");
+            alert("The computer won! Start a new match!!");
             window.location.reload();
         } 
    
