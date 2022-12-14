@@ -80,7 +80,7 @@ function selectChoice() {
             alert("The computer won the game! Start a new match!!");
             window.location.reload();
         } // when the tieScore gets 3, the game restart
-          else if (tieScore == 3) {
+          else if (tieScore >= 3) {
             alert("It's tie! Try again!!");
             window.location.reload();
           }
