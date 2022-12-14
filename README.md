@@ -46,7 +46,7 @@ Me, the player choose one images from 'rock', 'paper', or 'scissors', meanwhile 
 
 8. Reply the game nonetherless who is winning, if you don't like losing, click the "REPLAY" button!
 
-![alt text](media/reply_game)
+![alt text](media/replay_game)
 
 ## Validator Testing
  - HTML
