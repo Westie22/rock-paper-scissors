@@ -71,11 +71,14 @@ function selectChoice() {
                 //alert("Computer Wins!");
                 computerScore += 1;
             }
-        // 5 times winning and scores are back to 0 and can't play any more, must click "REPLAY" button to continue
+        // 5 times winning and scores are back to 0 and a new game starts!
         } if (myScore >= 5) {
             alert("I won the game! Click REPLAY!!");
+            window.location.reload();
+            
         } else if (computerScore >= 5) {
             alert("The computer won! Click REPLAY!!");
+            window.location.reload();
         } 
    
     // update scroes
@@ -95,7 +98,7 @@ document.getElementById("tie-score").innerText = 0;
 
 game();
 
-// Reset the game
+// Reset the game -- regardless who is winning, the game can be rest and starts from both score 0s. 
 function reset() {
     document.getElementById("my-score").innerText = 0;
     document.getElementById("computer-score").innerText= 0;
