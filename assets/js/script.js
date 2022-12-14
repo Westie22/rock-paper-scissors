@@ -77,9 +77,13 @@ function selectChoice() {
             window.location.reload();
             
         } else if (computerScore >= 5) {
-            alert("The computer won! Start a new match!!");
+            alert("The computer won the game! Start a new match!!");
             window.location.reload();
-        } 
+        } // when the tieScore gets 3, the game restart
+          else if (tieScore == 3) {
+            alert("It's tie! Try again!!");
+            window.location.reload();
+          }
    
     // update scroes
     document.getElementById("my-score").innerText = myScore;
@@ -98,7 +102,7 @@ document.getElementById("tie-score").innerText = 0;
 
 game();
 
-// Reset the game -- regardless who is winning, the game can be rest and starts from both score 0s. 
+// Reset the game -- regardless who is winning, the game can be reset and starts from both score 0s. 
 function reset() {
     document.getElementById("my-score").innerText = 0;
     document.getElementById("computer-score").innerText= 0;
