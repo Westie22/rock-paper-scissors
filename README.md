@@ -40,11 +40,13 @@ Me, the player choose one images from 'rock', 'paper', or 'scissors', meanwhile 
 
 ![alt text](media/initial_site_view.v2.png)
 
-7. After 5 scores obtains the site tells you who is the winner and both scores are changed to 0. In order to continue the game, REPLAY button must be clicked.
+7. After 5 scores obtains the site tells you who is the winner and a new game can be started as both scores will set 0 for both.
 
-![alt text](media/winner_message.png)
+![alt text](media/winning_start_new_game.png)
 
-7. Reply the game!
+8. Reply the game nonetherless who is winning, if you don't like losing, click the "REPLAY" button!
+
+![alt text](media/reply_game)
 
 ## Validator Testing
  - HTML
