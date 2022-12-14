@@ -75,7 +75,7 @@ The live link can be found here - https://westie22.github.io/rock-paper-scissors
 
 ### Acknowledgement
 - This site-css is inspried and taken by Code Institute project "Love Maths".
-- This site is also inspired by this [YouTube](https://www.youtube.com/watch?v=EfAl9bwzVZk&t=5063s) & this [YouTube}(https://www.youtube.com/watch?v=4eeY0JFEMs8&t=252s) channels.
+- This site is also inspired by this [YouTube](https://www.youtube.com/watch?v=EfAl9bwzVZk&t=5063s) & this [YouTube](https://www.youtube.com/watch?v=4eeY0JFEMs8&t=252s) channels.
 - This site is learned by are learned from [W3schools](https://www.w3schools.com/) site.
 - This project is also learned by [Stackoverflow.com](https://stackoverflow.com/).
 - This project is learned from [DOM Events Reference](https://developer.mozilla.org/en-US/docs/Web/Events)
